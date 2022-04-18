@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+:root{
+    --primary-color-light: #E50914 ;
+    --primary-color-dark: #C50914;
+    --secondy-color: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: var(--secondy-color);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+/* Cabeçalho */
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+header .logo{
+    color: var(--primary-color-light);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    letter-spacing: 8px;
+    margin-left: 30px;
+}
+
+header nav a{
+    color: #AAA;
+    margin-right: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header nav a:hover{
+    color: #FFF;
+}
+
+
+header img{
+    width: 30px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+header i{
+    width: 30px;
+    height: 22px;
+    margin-right: 10px;
+    color: white;
+}
+
+/*Filme principal*/
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('../img/content-main-img.jpg');
+    background-size:cover;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;  
+}
+
+main .filme-principal .container{
+    margin-left: 50px;
+}
+
+main .titulo{
+    letter-spacing: 10px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS',Arial, sans-serif;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 35px;
+    margin-top: 15px;
+    width: 500px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.button{
+    padding: 10px 30px;
+    margin-right: 15px;
+    border:none;
+    background-color:rgba(255, 255, 255, .20);
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color:rgba(255, 255, 255, .50) !important; 
+}
+
+.button i{
+    margin-right: 8px;
+}
+
+.carousel-filmes{
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-left: 60px;
+}
+
+.carousel-titulo{
+    margin: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    
+}
